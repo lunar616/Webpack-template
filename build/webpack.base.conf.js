@@ -109,7 +109,8 @@ module.exports = {
   },
   resolve: {
     alias: {
-      '@': 'src',
+      '~': PATHS.src,
+      '@': `${PATHS.src}/js`,
       'vue$': 'vue/dist/vue.js',
     },
   },
